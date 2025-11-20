@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>РУСЬПРОМТОРГ | Снабжение</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Ruslan+Display&family=Special+Elite&display=swap');
+        :root {
+            --red: #CC0000;
+            --bg: #F4E4C1;
+            --gold: #D4AF37;
+            --black: #1a1a1a;
+        }
+        body { margin: 0; background: var(--bg); color: var(--black); font-family: 'Special Elite', monospace; }
+        h1, h2 { font-family: 'Oswald', sans-serif; text-transform: uppercase; margin: 0; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; background: rgba(255,255,255,0.2); min-height: 100vh; border-left: 1px solid #ccc; border-right: 1px solid #ccc; }
+        
+        /* ШАПКА */
+        header { text-align: center; border-bottom: 3px solid var(--black); padding-bottom: 20px; margin-bottom: 40px; }
+        .logo { font-family: 'Ruslan Display'; font-size: 3rem; color: var(--red); text-shadow: 2px 2px 0 #000; }
+        
+        /* ГЕРОЙ */
+        .hero { text-align: center; padding: 40px; border: 2px solid var(--black); background: #e8d5b0; margin-bottom: 40px; }
+        .hero h1 { font-size: 3.5rem; color: var(--black); }
+        .hero h1 span { color: var(--red); display: block; }
+        .btn { display: inline-block; background: var(--red); color: #fff; padding: 15px 30px; font-family: 'Oswald'; font-size: 1.5rem; text-decoration: none; border: 3px solid var(--gold); margin-top: 20px; box-shadow: 5px 5px 0 #000; }
+        .btn:hover { background: #b30000; transform: translate(2px, 2px); box-shadow: 3px 3px 0 #000; }
+
+        /* ТОВАРЫ */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: #fff; border: 2px solid var(--black); padding: 15px; position: relative; }
+        .card::after { content: '+'; position: absolute; top: 5px; right: 5px; font-weight: bold; }
+        .img { height: 180px; background: #eee; display: flex; align-items: center; justify-content: center; font-size: 3rem; border: 1px solid #999; margin-bottom: 10px; }
+        .title { font-family: 'Oswald'; font-size: 1.4rem; border-bottom: 2px solid var(--red); margin-bottom: 10px; }
+        .price { font-weight: bold; color: var(--red); font-size: 1.2rem; float: left; }
+        .buy { float: right; background: var(--black); color: #fff; padding: 5px 10px; text-decoration: none; font-weight: bold; }
+        
+        /* ПОДВАЛ */
+        footer { margin-top: 50px; padding: 20px; background: var(--red); color: #fff; text-align: center; border-top: 5px solid var(--gold); }
+    </style>
+</head>
+<body>
+    <div class="container"><header>
+            <div class="logo">☭ РУСЬПРОМТОРГ ☭</div>
+            <p>СНАБЖЕНИЕ ТРУДЯЩИХСЯ ИСКОННО РУССКИМИ БЛАГАМИ</p>
+        </header>
+
+        <section class="hero">
+            <h1>ТОВАРИЩ!<br><span>ВЕРНИСЬ К ИСТОКАМ!</span></h1>
+            <p>ВЫПОЛНИМ ПЯТИЛЕТКУ ПО ВОЗРОЖДЕНИЮ НАРОДНОГО СТИЛЯ!</p>
+            <a href="#" class="btn">★ ПОЛУЧИТЬ НАРЯД ★</a>
+        </section>
+
+        <h2 style="text-align: center; margin-bottom: 30px; font-size: 2.5rem;">СКЛАД ПРОДУКЦИИ</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="img">🥾</div>
+                <div class="title">ВАЛЕНКИ "УДАРНИК"</div>
+                <p>Шерсть 100%. Усиленная подошва. Морозостойкость до -50°C.</p>
+                <div class="price">45 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+
+            <div class="card">
+                <div class="img">👕</div>
+                <div class="title">РУБАХА "ПАХАРЬ"</div>
+                <p>Лен суровый. Ворот-стойка. Защищает от искр и ветра.</p>
+                <div class="price">28 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+
+            <div class="card">
+                <div class="img">👸</div>
+                <div class="title">КОКОШНИК "ЗАРЯ"</div>
+                <p>Аэродинамическая конструкция. Не мешает защитным очкам.</p>
+                <div class="price">12 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+
+            <div class="card">
+                <div class="img">👟</div>
+                <div class="title">ЛАПТИ "ЛЕСНИК"</div>
+                <p>Береста + полимеры. Маслобензостойкая подошва.</p>
+                <div class="price">15 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+
+            <div class="card">
+                <div class="img">🧥</div>
+                <div class="title">ТЕЛОГРЕЙКА "БРОНЯ"</div>
+                <p>Стеганая вата высшего сорта. Защита от ветра и мороза.</p>
+                <div class="price">33 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+
+            <div class="card">
+                <div class="img">💂</div>
+                <div class="title">ШАПКА-УШАНКА</div>
+                <p>Три режима ушей: "Боевой", "Отдых", "Лютый мороз".</p>
+                <div class="price">18 РУБ.</div>
+                <a href="#" class="buy">В КОРЗИНУ</a>
+            </div>
+        </div>
+
+        <footer>
+            <h3>ЗАПИСЬ В ОЧЕРЕДЬ</h3>
+            <p>© 2025 РУСЬПРОМТОРГ</p>
+        </footer>
+    </div>
+</body>
+</html>
