@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ViLabAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ViLabAIApp.swift */; };
+		A10000000000000000000002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* RootView.swift */; };
+		A10000000000000000000003 /* MainTabContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* MainTabContainerView.swift */; };
+		A10000000000000000000004 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* DesignTokens.swift */; };
+		A10000000000000000000005 /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* Buttons.swift */; };
+		A10000000000000000000006 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* Cards.swift */; };
+		A10000000000000000000007 /* Inputs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* Inputs.swift */; };
+		A10000000000000000000008 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Navigation.swift */; };
+		A10000000000000000000009 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* AppModels.swift */; };
+		A1000000000000000000000A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* SampleData.swift */; };
+		A1000000000000000000000B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* OnboardingView.swift */; };
+		A1000000000000000000000C /* HomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* HomeDashboardView.swift */; };
+		A1000000000000000000000D /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* UploadView.swift */; };
+		A1000000000000000000000E /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* ResultsView.swift */; };
+		A1000000000000000000000F /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* PricingView.swift */; };
+		A10000000000000000000010 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* ProfileView.swift */; };
+		A10000000000000000000011 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* SettingsView.swift */; };
+		A10000000000000000000012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000000 /* ViLabAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViLabAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000001 /* ViLabAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViLabAIApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* MainTabContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabContainerView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Inputs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inputs.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		A2000000000000000000000A /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* HomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboardView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A40000000000000000000002 /* ViLabAI */,
+				A40000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40000000000000000000002 /* ViLabAI */ = {
+			isa = PBXGroup;
+			path = ViLabAI;
+			sourceTree = "<group>";
+			children = (
+				A20000000000000000000001,
+				A20000000000000000000002,
+				A20000000000000000000003,
+				A40000000000000000000010 /* Core */,
+				A40000000000000000000020 /* Features */,
+				A20000000000000000000012,
+				A20000000000000000000013,
+			);
+		};
+		A40000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000000,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000010 /* Core */ = {
+			isa = PBXGroup;
+			path = Core;
+			sourceTree = "<group>";
+			children = (
+				A40000000000000000000011 /* Tokens */,
+				A40000000000000000000012 /* Components */,
+				A40000000000000000000013 /* Models */,
+				A40000000000000000000014 /* SampleData */,
+			);
+		};
+		A40000000000000000000011 /* Tokens */ = {isa = PBXGroup; path = Tokens; sourceTree = "<group>"; children = (A20000000000000000000004,); };
+		A40000000000000000000012 /* Components */ = {isa = PBXGroup; path = Components; sourceTree = "<group>"; children = (A20000000000000000000005,A20000000000000000000006,A20000000000000000000007,A20000000000000000000008,); };
+		A40000000000000000000013 /* Models */ = {isa = PBXGroup; path = Models; sourceTree = "<group>"; children = (A20000000000000000000009,); };
+		A40000000000000000000014 /* SampleData */ = {isa = PBXGroup; path = SampleData; sourceTree = "<group>"; children = (A2000000000000000000000A,); };
+		A40000000000000000000020 /* Features */ = {
+			isa = PBXGroup;
+			path = Features;
+			sourceTree = "<group>";
+			children = (
+				A40000000000000000000021,
+				A40000000000000000000022,
+				A40000000000000000000023,
+				A40000000000000000000024,
+				A40000000000000000000025,
+				A40000000000000000000026,
+				A40000000000000000000027,
+			);
+		};
+		A40000000000000000000021 = {isa = PBXGroup; path = Onboarding; sourceTree = "<group>"; children = (A2000000000000000000000B,); };
+		A40000000000000000000022 = {isa = PBXGroup; path = Home; sourceTree = "<group>"; children = (A2000000000000000000000C,); };
+		A40000000000000000000023 = {isa = PBXGroup; path = Upload; sourceTree = "<group>"; children = (A2000000000000000000000D,); };
+		A40000000000000000000024 = {isa = PBXGroup; path = Results; sourceTree = "<group>"; children = (A2000000000000000000000E,); };
+		A40000000000000000000025 = {isa = PBXGroup; path = Pricing; sourceTree = "<group>"; children = (A2000000000000000000000F,); };
+		A40000000000000000000026 = {isa = PBXGroup; path = Profile; sourceTree = "<group>"; children = (A20000000000000000000010,); };
+		A40000000000000000000027 = {isa = PBXGroup; path = Settings; sourceTree = "<group>"; children = (A20000000000000000000011,); };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* ViLabAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70000000000000000000001 /* Build configuration list for PBXNativeTarget "ViLabAI" */;
+			buildPhases = (
+				A30000000000000000000002 /* Sources */,
+				A30000000000000000000001 /* Frameworks */,
+				A30000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViLabAI;
+			productName = ViLabAI;
+			productReference = A20000000000000000000000 /* ViLabAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A70000000000000000000002 /* Build configuration list for PBXProject "ViLabAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40000000000000000000001;
+			productRefGroup = A40000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000012 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001,
+				A10000000000000000000002,
+				A10000000000000000000003,
+				A10000000000000000000004,
+				A10000000000000000000005,
+				A10000000000000000000006,
+				A10000000000000000000007,
+				A10000000000000000000008,
+				A10000000000000000000009,
+				A1000000000000000000000A,
+				A1000000000000000000000B,
+				A1000000000000000000000C,
+				A1000000000000000000000D,
+				A1000000000000000000000E,
+				A1000000000000000000000F,
+				A10000000000000000000010,
+				A10000000000000000000011,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A80000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A80000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A80000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViLabAI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViLabAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A80000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ViLabAI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ViLabAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70000000000000000000001 /* Build configuration list for PBXNativeTarget "ViLabAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000003,
+				A80000000000000000000004,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70000000000000000000002 /* Build configuration list for PBXProject "ViLabAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80000000000000000000001,
+				A80000000000000000000002,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}

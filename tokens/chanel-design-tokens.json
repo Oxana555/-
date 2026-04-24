@@ -1,0 +1,46 @@
+{
+  "brand": {
+    "name": "ViLab AI",
+    "legacy": "Chanel"
+  },
+  "color": {
+    "background": { "light": "#F7F7F5", "dark": "#0D0F14" },
+    "surface": { "light": "#FFFFFF", "dark": "#161A22" },
+    "surfaceElevated": { "light": "#F1F2F4", "dark": "#1F2430" },
+    "textPrimary": { "light": "#111111", "dark": "#F3F5F8" },
+    "textSecondary": { "light": "#4A4F57", "dark": "#A8B0BE" },
+    "accent": { "light": "#6366F1", "dark": "#8B93FF" },
+    "accentSecondary": { "light": "#A855F7", "dark": "#C084FC" },
+    "success": { "light": "#0EA56B", "dark": "#30D49A" },
+    "warning": { "light": "#D97706", "dark": "#F6AD55" },
+    "error": { "light": "#D14343", "dark": "#FF7A7A" },
+    "border": { "light": "#D8DCE2", "dark": "#2F3643" },
+    "glass": { "light": "#FFFFFF99", "dark": "#1B223099" }
+  },
+  "typography": {
+    "display": { "size": 34, "weight": "bold" },
+    "title": { "size": 24, "weight": "semibold" },
+    "headline": { "size": 20, "weight": "semibold" },
+    "body": { "size": 16, "weight": "regular" },
+    "bodyStrong": { "size": 16, "weight": "semibold" },
+    "caption": { "size": 13, "weight": "regular" }
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 12,
+    "lg": 16,
+    "xl": 24,
+    "xxl": 32
+  },
+  "radius": {
+    "sm": 10,
+    "md": 14,
+    "lg": 20,
+    "pill": 999
+  },
+  "shadow": {
+    "card": { "radius": 20, "y": 8, "opacity": 0.08 },
+    "button": { "radius": 16, "y": 6, "opacity": 0.16 }
+  }
+}
